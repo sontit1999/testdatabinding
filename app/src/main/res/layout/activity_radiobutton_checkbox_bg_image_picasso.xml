@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#C00F0F"
+    android:id="@+id/linear"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textColor="#AA2121"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="Mời bạn chọn theme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:id="@+id/nhomradio"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/rbtred"
+                android:textColor="#03A9F4"
+                android:text="Red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/rbtorange"
+                android:textColor="#03A9F4"
+                android:text="Orange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/rbtyellow"
+                android:textColor="#03A9F4"
+                android:text="Yellow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/rbtviolet"
+                android:textColor="#03A9F4"
+                android:text="Violet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/rbtgrey"
+                android:textColor="#03A9F4"
+                android:text="grey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+    </LinearLayout>
+    <CheckBox
+        android:textSize="20sp"
+        android:textColor="#FF5722"
+        android:id="@+id/cbandroid"
+        android:textAllCaps="true"
+        android:text="Android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:textSize="20sp"
+        android:textColor="#FF5722"
+        android:id="@+id/cbios"
+        android:textAllCaps="true"
+        android:text="IOS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:textSize="20sp"
+        android:textColor="#FF5722"
+        android:id="@+id/cbphp"
+        android:textAllCaps="true"
+        android:text="PHP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:textSize="20sp"
+        android:textColor="#FF5722"
+        android:id="@+id/cbjava"
+        android:textAllCaps="true"
+        android:text="Java"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:id="@+id/imagebutton"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/gaixinh"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <Switch
+        android:id="@+id/swwifi"
+        android:textSize="20sp"
+        android:text="wifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    
+</LinearLayout>
